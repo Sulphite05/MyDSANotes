@@ -45,3 +45,8 @@
 - [Disjoint Set Data Structure](https://youtu.be/wU6udHRIkcc?si=D7JSlRKqhCM3a7pc)  
 - A comprehensive video tutorial covering the basics and implementation of DSU.
 - Great for visual learners and beginners.
+
+# Practice Questions
+- [GFG: Minimum Spanning Tree](https://www.geeksforgeeks.org/problems/minimum-spanning-tree/1)
+- [LC: Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)
+- [LC: Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/description/)
