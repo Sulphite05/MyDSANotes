@@ -50,3 +50,5 @@
 - [GFG: Minimum Spanning Tree](https://www.geeksforgeeks.org/problems/minimum-spanning-tree/1)
 - [LC: Number of Operations to Make Network Connected](https://leetcode.com/problems/number-of-operations-to-make-network-connected/)
 - [LC: Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/description/)
+- [LC: Accounts Merge](https://leetcode.com/problems/accounts-merge/description/)
+- [LC: Making A Large Island](https://leetcode.com/problems/making-a-large-island/description/)

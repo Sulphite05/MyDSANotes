@@ -26,7 +26,6 @@ class Solution:
                 dsu.union(p, c)
         return ans
 
-
         # Prims Algorithm
         summ = 0
         heap = [(0, 0)]
