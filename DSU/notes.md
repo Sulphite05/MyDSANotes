@@ -52,3 +52,4 @@
 - [LC: Most Stones Removed with Same Row or Column](https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/description/)
 - [LC: Accounts Merge](https://leetcode.com/problems/accounts-merge/description/)
 - [LC: Making A Large Island](https://leetcode.com/problems/making-a-large-island/description/)
+- [GFG: Number Of Islands](https://www.geeksforgeeks.org/problems/number-of-islands/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=number-of-islands)
