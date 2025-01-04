@@ -40,3 +40,5 @@
 - [LC: Find Peak Element](https://leetcode.com/problems/find-peak-element/)
 - [LC: Search in rotated array i](https://leetcode.com/problems/search-in-rotated-sorted-array/)
 - [LC: Search in rotated array ii](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/)
+- [GFG: Square root](https://www.geeksforgeeks.org/problems/square-root/0)
+- [LC: Kko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
