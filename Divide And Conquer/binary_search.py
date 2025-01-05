@@ -5,15 +5,15 @@ def binary_search1(lst: list, val: int):
     low = 0
     high = len(lst) - 1
 
-    while low <= high:
-        mid = (low+high)//2
+    while low < high:
+        mid = low + (high-low)//2
         if val < lst[mid]:
-            high = mid - 1
+            high = mid
         elif val > lst[mid]:
             low = mid + 1
         else:
             return mid
-    return -1
+    return low
 
 
 # recursive method
