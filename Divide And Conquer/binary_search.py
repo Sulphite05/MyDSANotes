@@ -13,7 +13,7 @@ def binary_search1(lst: list, val: int):
             low = mid + 1
         else:
             return mid
-    return low
+    return -1
 
 
 # recursive method
