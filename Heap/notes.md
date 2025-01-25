@@ -1,5 +1,13 @@
 # Notes on Heap
 
+# Topics Included
+- Array representation in binary tree
+- Complete Binary Tree
+- Heap
+- Insert and Delete
+- Heap Sort
+- Heapify
+- Priority queue
 
 # Resources for Heap
 
