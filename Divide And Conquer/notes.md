@@ -48,3 +48,4 @@
 - [LC: Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/)
 - [LC: Minimum Number of Days to Make m Bouquets](https://leetcode.com/problems/minimum-number-of-days-to-make-m-bouquets/)
 - [LC: Capacity To Ship Packages Within D Days](https://leetcode.com/problems/capacity-to-ship-packages-within-d-days/)
+- [LC: Search a 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/)
