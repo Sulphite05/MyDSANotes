@@ -1,4 +1,4 @@
-# https://leetcode.com/problems/number-of-operations-to-make-network-connected/
+# https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/description/
 
 from typing import List
 from ..disjoint_set_union import DSU

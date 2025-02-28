@@ -1,7 +1,7 @@
 # https://leetcode.com/problems/making-a-large-island/
 
 from typing import List
-from DSU.disjoint_set_union import DSU
+from DisjointSetUnion.disjoint_set_union import DSU
 
 
 class Solution:

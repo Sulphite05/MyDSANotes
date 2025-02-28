@@ -1,7 +1,7 @@
 # https://www.geeksforgeeks.org/problems/number-of-islands/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=number-of-islands
 
 from typing import List
-from DSU.disjoint_set_union import DSU
+from DisjointSetUnion.disjoint_set_union import DSU
 
 
 class Solution:
