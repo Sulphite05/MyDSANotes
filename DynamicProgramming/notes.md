@@ -1,4 +1,4 @@
-> _Those who can't remember the past are condemned to repeat it_
+> _Those who can't remember the past are condemned to repeat it._
 # Dynamic Programming ft Aditya Verma
 DP is enhanced recursion. Period.
 
@@ -27,7 +27,7 @@ Recursive -> Memoization -> Top down DP(Using matrices)
 
 ### 1. `0/1 Knapsack Problem`
 
-##### Problems
+#### Problems
 - Subset sum
 - Equal sum partition
 - Count of subset sum
@@ -35,7 +35,7 @@ Recursive -> Memoization -> Top down DP(Using matrices)
 - Target sum
 - Number of subsets with given difference
 
-##### Description
+#### Description
 What is a knapsack? Any bag with a fixed weight. We want to maximise the value we keep in our bag.
 
 
@@ -46,5 +46,5 @@ Knapsack has 3 types.
 
 For recursive solution:
 - Think of the smallest valid input for base case
-- In case of knapsack, the smallest input is no input. Weight and n = 0.
+- In case of knapsack, the smallest input is no input. Weight of sack = 0 or n = 0 so we return 0.
 
