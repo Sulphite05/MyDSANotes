@@ -11,7 +11,7 @@ Since DP is like recursion, the identification is also the same.
 1. Choice
 2. Optimality
 
-Recursive -> Memoization -> Top down DP(Using matrices)
+Recursive -> Memoization -> Tabulation(Bottom-up) DP(Using matrices)
 
 ## Variations of DP
 - 0/1 Knapsack
@@ -45,6 +45,28 @@ Knapsack has 3 types.
 - Unbounded Knapsack means even after using the item once, it can be used again(unlimited supply of items)
 
 For recursive solution:
+
 - Think of the smallest valid input for base case
 - In case of knapsack, the smallest input is no input. Weight of sack = 0 or n = 0 so we return 0.
+- Otherwise there are two cases
+  1. Either the current weight is less than equal to the available capacity of the bag(return max of using current weight and not using the current weight)
+  2. Or it is greater(Leave the current weight and move to the next)
+
+For memoization:
+- We can create a  matrix or simply use a dictionary in recursive solution.
+- For the matrix, we need to decide the value of i, j
+- We create the matrix for values that change in your recursive solution
+- We use the highest dimensions that can accommodate all the changing values
+- Initialise with -1
+- For every recursive call, I check if there is a value present otherwise I store the result
+- The bad thing about this code is the increase in stack size
+
+For Bottom-Up DP(Base case to complete input):
+- Initialise a matrix of size w*n(capacity of knapsack * Total items)
+- The base condition of recursion becomes the matrix initialisation here
+- i.e. The first row and column will be initialised with 0(What we wanted to return in base condition)
+- The other slots ae sub-problems
+- dp[w][n] is the final result
+- In recursive solution, we start from w and n but here we start from base condition then move forward(Bottom-up).
+- We simply translate the recursive calls to indexing the DP matrix as all the calls are pre-computed as we move forward.
 
