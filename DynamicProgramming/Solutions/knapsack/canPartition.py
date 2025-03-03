@@ -35,6 +35,7 @@ class Solution:
             for j in range(1, val + 1):
                 if nums[i - 1] <= j:
                     dp[i][j] = dp[i - 1][j - nums[i - 1]] or dp[i - 1][j]
+                    # if instead of or, we put +, we can count number of subsets with this sum
                 else:
                     dp[i][j] = dp[i - 1][j]
         return dp[n][val]
