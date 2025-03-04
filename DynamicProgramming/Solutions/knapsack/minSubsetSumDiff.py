@@ -53,4 +53,10 @@ class Solution:
             if dp[i] and rng >= (i << 1): return rng - (i << 1)
 
 
-
+# To count number of subsets with given difference
+# sum(S1) - sum(S2) = diff
+# sum(S1) + sum(S2) = sum(arr)
+# 2*sum(S1) = diff + sum(arr)
+# sum(S1) = (diff + sum(arr))/2
+# sum(s1) is in decimal, we return 0
+# else solve as above
