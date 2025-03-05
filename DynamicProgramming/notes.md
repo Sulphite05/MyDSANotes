@@ -14,8 +14,7 @@ Since DP is like recursion, the identification is also the same.
 Recursive -> Memoization -> Tabulation(Bottom-up) DP(Using matrices)
 
 ## Variations of DP
-- 0/1 Knapsack
-- Unbounded knapsack
+- Knapsack
 - Fibonacci
 - Longest Common Subsequence
 - Longest Increasing Subsequence
@@ -25,7 +24,7 @@ Recursive -> Memoization -> Tabulation(Bottom-up) DP(Using matrices)
 - DP on grid
 - Others
 
-### 1. `0/1 Knapsack Problem`
+### 1. `Knapsack Problem`
 
 #### Problems
 - Subset sum
@@ -44,6 +43,7 @@ Knapsack has 3 types.
 - 0/1 Knapsack means adding the whole item or not at all so this comes in DP(choice and optimality)
 - Unbounded Knapsack means even after using the item once, it can be used again(unlimited supply of items)
 
+###### i. 0/1 Knapsack Problem
 For recursive solution:
 
 - Think of the smallest valid input for base case
@@ -70,3 +70,8 @@ For Bottom-Up DP(Base case to complete input):
 - In recursive solution, we start from w and n but here we start from base condition then move forward(Bottom-up).
 - We simply translate the recursive calls to indexing the DP matrix as all the calls are pre-computed as we move forward.
 
+###### i. Unbounded Knapsack Problem
+- Multiple occurrences of the same item is allowed unlike 0/1 where an item could be included only once.
+- instead of calling n-1(moving to next element after adding current element), I can call n again but after adding value of current n.
+- That's it! :)
+- e.g. see rodCutting.py
